@@ -3,8 +3,7 @@
  * Main Application Logic
  */
 
-import Papa from 'papaparse';
-import './style.css';
+// PapaParse is loaded via CDN in index.html
 
 // Configuration data structure
 const CONFIGURATIONS = [
@@ -298,7 +297,7 @@ const SNR_FILES = [
 
 // Load result files for a configuration
 async function loadResultFiles(configId) {
-  const basePath = `/data/${configId}`;
+  const basePath = `./public/data/${configId}`;
   const config = CONFIGURATIONS.find(c => c.id === configId);
 
   // Use appropriate file list based on config type
