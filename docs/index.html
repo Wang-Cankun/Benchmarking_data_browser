@@ -29,6 +29,7 @@
       <div class="nav-links">
         <a href="#" class="nav-link active" data-view="dashboard">Dashboard</a>
         <a href="#" class="nav-link" data-view="bioimage">BioImage Archive</a>
+        <a href="#" class="nav-link" data-view="fov-gallery">FOV Gallery</a>
         <a href="https://github.com/SizunJiangLab/Benchmarking_tissue_preparation" target="_blank"
           class="nav-link external">
           GitHub
@@ -198,18 +199,11 @@
 
         <div class="bioimage-info">
           <div class="info-card">
-            <h3>📷 Sample FOV Preview</h3>
-            <p>Below is a low-resolution RGB composite preview generated from a 1GB OME-TIFF sample (slide21_FOV2).</p>
-            <div class="sample-image-container"
-              style="margin-top: 1rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color);">
-              <img src="./public/slide21_FOV2_preview.jpg" alt="Sample OME-TIFF Preview"
-                style="width: 100%; height: auto; display: block;" />
-              <div
-                style="background: var(--bg-secondary); padding: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); border-top: 1px solid var(--border-color);">
-                <strong>Channels:</strong> Pseudo-colored composite (DAPI/Blue, CD3/Green, CD20/Red) |
-                <strong>Original:</strong> 13 channels, 1GB
-              </div>
-            </div>
+            <h3>🔬 Interactive FOV Gallery</h3>
+            <p>Explore sample high-resolution previews from the imaging dataset with interactive pan and zoom.</p>
+            <a href="#" class="nav-link" data-view="fov-gallery" style="display: inline-flex; margin-top: 0.5rem;">
+              View FOV Gallery →
+            </a>
           </div>
           <div class="info-card">
             <h3>📦 Dataset Access</h3>
@@ -256,6 +250,37 @@
           </div>
         </div>
       </section>
+
+      <!-- FOV Gallery View -->
+      <section id="fov-gallery-view" class="view">
+        <div class="fov-gallery-header">
+          <h2>🔬 Sample FOV Previews</h2>
+          <p class="fov-gallery-description">
+            Interactive high-resolution previews of multiplexed imaging data. Click any image to explore with pan and
+            zoom.
+          </p>
+        </div>
+
+        <div class="fov-gallery-grid" id="fov-gallery-grid">
+          <!-- Gallery items will be populated by JS -->
+        </div>
+
+        <!-- OpenSeadragon Viewer Modal -->
+        <div class="fov-viewer-modal" id="fov-viewer-modal">
+          <div class="fov-viewer-header">
+            <span class="fov-viewer-title" id="fov-viewer-title"></span>
+            <button class="fov-viewer-close" id="fov-viewer-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="fov-viewer-container" id="fov-viewer-container"></div>
+          <div class="fov-viewer-info" id="fov-viewer-info"></div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -281,6 +306,7 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/openseadragon.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <script src="./src/main.js"></script>
 </body>

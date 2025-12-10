@@ -503,5 +503,142 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
+// ============================================
+// FOV GALLERY
+// ============================================
+
+// Gallery data - expandable for future images
+const FOV_GALLERY_ITEMS = [
+  {
+    id: 'slide21_fov2',
+    title: 'Slide 21 - FOV 2',
+    description: 'Human tonsil tissue, 13-channel multiplexed imaging',
+    image: './public/slide21_FOV2_preview.jpg',
+    channels: 13,
+    resolution: '7000 × 5500',
+    size: '~1 GB (original)',
+    pipeline: 'Mesmer'
+  },
+  // Add more items here as needed
+];
+
+let osdViewer = null;
+
+// Render FOV Gallery
+function renderFovGallery() {
+  const galleryGrid = document.getElementById('fov-gallery-grid');
+  if (!galleryGrid) return;
+
+  galleryGrid.innerHTML = FOV_GALLERY_ITEMS.map(item => `
+    <div class="fov-gallery-card" data-fov-id="${item.id}">
+      <img src="${item.image}" alt="${item.title}" class="fov-gallery-card-image" loading="lazy" />
+      <div class="fov-gallery-card-info">
+        <div class="fov-gallery-card-title">${item.title}</div>
+        <div class="fov-gallery-card-meta">
+          ${item.channels} channels · ${item.resolution} · ${item.pipeline}
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // Add click handlers
+  document.querySelectorAll('.fov-gallery-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const item = FOV_GALLERY_ITEMS.find(i => i.id === card.dataset.fovId);
+      if (item) openFovViewer(item);
+    });
+  });
+}
+
+// Open FOV Viewer with OpenSeadragon
+function openFovViewer(item) {
+  const modal = document.getElementById('fov-viewer-modal');
+  const titleEl = document.getElementById('fov-viewer-title');
+  const infoEl = document.getElementById('fov-viewer-info');
+  const container = document.getElementById('fov-viewer-container');
+
+  titleEl.textContent = item.title;
+  infoEl.innerHTML = `
+    <strong>Description:</strong> ${item.description} · 
+    <strong>Channels:</strong> ${item.channels} · 
+    <strong>Resolution:</strong> ${item.resolution} · 
+    <strong>Original Size:</strong> ${item.size}
+  `;
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  // Destroy previous viewer if exists
+  if (osdViewer) {
+    osdViewer.destroy();
+    osdViewer = null;
+  }
+
+  // Initialize OpenSeadragon
+  osdViewer = OpenSeadragon({
+    id: 'fov-viewer-container',
+    prefixUrl: 'https://cdn.jsdelivr.net/npm/openseadragon@4.1/build/openseadragon/images/',
+    tileSources: {
+      type: 'image',
+      url: item.image
+    },
+    showNavigationControl: true,
+    showNavigator: true,
+    navigatorPosition: 'BOTTOM_RIGHT',
+    navigatorSizeRatio: 0.15,
+    minZoomLevel: 0.5,
+    maxZoomLevel: 10,
+    visibilityRatio: 0.5,
+    constrainDuringPan: true,
+    animationTime: 0.5,
+    blendTime: 0.1,
+    springStiffness: 6.5
+  });
+}
+
+// Close FOV Viewer
+function closeFovViewer() {
+  const modal = document.getElementById('fov-viewer-modal');
+  modal.classList.remove('active');
+  document.body.style.overflow = '';
+
+  if (osdViewer) {
+    osdViewer.destroy();
+    osdViewer = null;
+  }
+}
+
+// Setup FOV Gallery event listeners
+function setupFovGalleryListeners() {
+  const closeBtn = document.getElementById('fov-viewer-close');
+  const modal = document.getElementById('fov-viewer-modal');
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeFovViewer);
+  }
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeFovViewer();
+    });
+  }
+
+  // Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const modal = document.getElementById('fov-viewer-modal');
+      if (modal && modal.classList.contains('active')) {
+        closeFovViewer();
+      }
+    }
+  });
+}
+
+// Initialize FOV Gallery on page load
+document.addEventListener('DOMContentLoaded', () => {
+  renderFovGallery();
+  setupFovGalleryListeners();
+});
+
 // Start the app
 init();
