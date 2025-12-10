@@ -328,7 +328,7 @@ async function loadResultFiles(configId) {
   populateTableSelector(basePath, csvFiles);
 
   // Render downloads with all files
-  renderDownloads(basePath, existingFiles);
+  renderDownloads(basePath, existingFiles, configId);
 }
 
 // Render figure grid
@@ -444,7 +444,7 @@ function renderTable(data, columns) {
 }
 
 // Render download list
-function renderDownloads(basePath, files) {
+function renderDownloads(basePath, files, configId) {
   const downloadList = document.getElementById('download-list');
 
   const getIcon = (file) => {
@@ -454,12 +454,12 @@ function renderDownloads(basePath, files) {
     return { icon: '📁', type: 'other' };
   };
 
-  // Download All button
+  // Download All button (Zip file)
   const downloadAllBtn = `
-    <button class="download-all-btn" id="download-all-btn">
+    <a href="./public/data/${configId}.zip" download="${configId}.zip" class="download-all-btn" id="download-all-btn">
       <span class="download-all-icon">📦</span>
-      <span>Download All Files (${files.length})</span>
-    </button>
+      <span>Download All Files (Zip Archive)</span>
+    </a>
   `;
 
   const fileItems = files.map(file => {
@@ -475,20 +475,6 @@ function renderDownloads(basePath, files) {
   }).join('');
 
   downloadList.innerHTML = downloadAllBtn + fileItems;
-
-  // Add click handler for Download All
-  document.getElementById('download-all-btn').addEventListener('click', async () => {
-    for (const file of files) {
-      const link = document.createElement('a');
-      link.href = `${basePath}/${file}`;
-      link.download = file;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      // Small delay to prevent browser blocking
-      await new Promise(resolve => setTimeout(resolve, 100));
-    }
-  });
 }
 
 // Switch between tabs
