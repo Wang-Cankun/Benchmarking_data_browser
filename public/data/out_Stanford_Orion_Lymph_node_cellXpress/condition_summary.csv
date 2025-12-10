@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_Orion_LymphNode_Tris_40min",12,12,0,0,17,1.41666666666667,1.41666666666667,0
+"Stanford_Orion_LymphNode_Tris_20min",12,12,0,0,24,2,2,0
+"Stanford_Orion_LymphNode_Tris_10min",12,12,0,0,35,2.91666666666667,2.91666666666667,0
+"Stanford_Orion_LymphNode_Citra_20min",12,11,1,0,50,4.16666666666667,3.63636363636364,1

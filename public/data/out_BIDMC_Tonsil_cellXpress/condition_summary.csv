@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"BIDMC_tonsil_30",24,24,0,0,29,1.20833333333333,1.20833333333333,0
+"BIDMC_tonsil_32",24,24,0,0,58,2.41666666666667,2.41666666666667,0
+"BIDMC_tonsil_31",24,24,0,0,60,2.5,2.5,0
+"BIDMC_tonsil_33",24,24,0,0,93,3.875,3.875,0

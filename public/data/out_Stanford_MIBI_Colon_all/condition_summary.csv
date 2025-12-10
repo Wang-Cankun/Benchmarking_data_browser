@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_MIBI_Colon_1",10,10,0,0,17,1.7,1.7,0
+"Stanford_MIBI_Colon_3",10,9,1,0,28,2.8,2,1
+"Stanford_MIBI_Colon_2",10,9,1,0,29,2.9,2.11111111111111,1
+"Stanford_MIBI_Colon_24",10,8,2,0,51,5.1,3.875,2

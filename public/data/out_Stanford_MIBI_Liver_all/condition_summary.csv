@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_MIBI_Liver_1",15,15,0,0,32,2.13333333333333,2.13333333333333,0
+"Stanford_MIBI_Liver_2",15,15,0,0,36,2.4,2.4,0
+"Stanford_MIBI_Liver_3",15,14,1,0,45,3,2.5,1
+"Stanford_MIBI_Liver_24",15,12,3,0,62,4.13333333333333,2.66666666666667,3

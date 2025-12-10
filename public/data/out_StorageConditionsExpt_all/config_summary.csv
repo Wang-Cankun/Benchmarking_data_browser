@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+StorageConditionsExpt_all,./data_mesmer/StorageConditionsExpt/,./out_StorageConditionsExpt_all/,8

@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+BIDMC_Tonsil_cellXpress,./data_cellXpress/Validation/BIDMC/,./out_BIDMC_Tonsil_cellXpress/,4

@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Novartis_tonsil_Tris_10min",9,9,0,0,17,1.88888888888889,1.88888888888889,0
+"Novartis_tonsil_Tris_40min",9,8,1,0,21,2.33333333333333,1.375,1
+"Novartis_tonsil_Tris_20min",9,9,0,0,29,3.22222222222222,3.22222222222222,0
+"Novartis_tonsil_Citra_20min",9,7,2,0,42,4.66666666666667,3.14285714285714,2

@@ -1,0 +1,5 @@
+"Staining_condition","CD3","CD45","CD8","CD20","ToxTox2","H3K27me3","CD11c","HLADRA","Ki67","CD68","PD1","FoxP3","H3K27ac","PAX5","NAKATP","GranzymeB","IDO1"
+"StorageConditionsExpt_1",4,4,4,4,4,3,4,4,4,4,4,3,4,4,4,3,1
+"StorageConditionsExpt_2",2,2,3,3,3,1,3,3,3,3,3,4,3,3,3,4,4
+"StorageConditionsExpt_3",3,1,2,2,2,2,2,2,2,1,1,1,1,1,1,2,3
+"StorageConditionsExpt_4",1,3,1,1,1,4,1,1,1,2,2,2,2,2,2,1,2

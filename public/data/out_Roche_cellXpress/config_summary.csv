@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Roche_cellXpress,./data_cellXpress/Initial_Optimization/Roche/,./out_Roche_cellXpress/,6

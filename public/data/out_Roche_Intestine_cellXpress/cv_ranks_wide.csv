@@ -1,0 +1,5 @@
+"Staining_condition","CD8","CD3","CD20","CD34","CD45","CD4","Iba1","Ki67","S100b","CK","CD68","Vimentin"
+"Roche_Intestine_Citra_20min",2,3,3,4,4,4,4,4,4,3,3,3
+"Roche_Intestine_Tris_10min",1,1,1,1,1,1,1,1,1,1,1,1
+"Roche_Intestine_Tris_20min",4,2,4,2,2,2,3,2,2,4,4,4
+"Roche_Intestine_Tris_40min",3,4,2,3,3,3,2,3,3,2,2,2

@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Novartis_Tonsil_all,./data_mesmer/Validation/Novartis_Tonsil/,./out_Novartis_Tonsil_all/,8

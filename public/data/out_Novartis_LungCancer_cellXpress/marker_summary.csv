@@ -1,0 +1,6 @@
+"Marker","Best_Condition","Worst_Condition","Min_CV","Max_CV","CV_Range","Failed_Conditions","Excluded_Conditions"
+"CD15","Novartis_LuCa_Tris_40min","Novartis_LuCa_Citra_20min",0.11941347940053,0.231556113222956,0.112142633822425,0,0
+"ECadherin","Novartis_LuCa_Tris_20min","Novartis_LuCa_Citra_20min",0.0948426253571711,0.194675293971642,0.0998326686144706,0,0
+"Ki67","Novartis_LuCa_Tris_20min","Novartis_LuCa_Citra_20min",0.0391364812035043,0.114933438376285,0.0757969571727805,0,0
+"CD3","Novartis_LuCa_Tris_20min","Novartis_LuCa_Citra_20min",0.0447719665283222,0.0840892549301494,0.0393172884018273,0,0
+"CD11c","Novartis_LuCa_Tris_20min","Novartis_LuCa_Citra_20min",0.0384516103772876,0.0624154225686013,0.0239638121913137,0,0

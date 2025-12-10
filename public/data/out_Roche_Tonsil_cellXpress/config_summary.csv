@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Roche_Tonsil_cellXpress,./data_cellXpress/Validation/Roche/,./out_Roche_Tonsil_cellXpress/,4

@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+ASTAR_COMET_Tonsil_all,./data_mesmer/Validation/ASTAR_COMET_Tonsil/,./out_ASTAR_COMET_Tonsil_all/,8

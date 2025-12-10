@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_OSCC_Tris_10min",32,32,0,0,45,1.40625,1.40625,0
+"Stanford_OSCC_Tris_40min",32,32,0,0,62,1.9375,1.9375,0
+"Stanford_OSCC_Tris_20min",32,32,0,0,88,2.75,2.75,0
+"Stanford_OSCC_Citra_20min",32,32,0,0,125,3.90625,3.90625,0

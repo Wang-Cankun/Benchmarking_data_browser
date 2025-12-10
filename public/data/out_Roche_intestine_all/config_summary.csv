@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Roche_intestine_all,./data_mesmer/Validation/Roche_intestine/,./out_Roche_intestine_all/,8

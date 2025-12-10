@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Roche_intestine_3",12,12,0,0,13,1.08333333333333,1.08333333333333,0
+"Roche_intestine_2",12,12,0,0,27,2.25,2.25,0
+"Roche_intestine_1",12,12,0,0,34,2.83333333333333,2.83333333333333,0
+"Roche_intestine_24",12,12,0,0,46,3.83333333333333,3.83333333333333,0

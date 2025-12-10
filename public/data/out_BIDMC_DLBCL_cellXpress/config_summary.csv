@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+BIDMC_DLBCL_cellXpress,./data_cellXpress/Validation/BIDMC/,./out_BIDMC_DLBCL_cellXpress/,4
