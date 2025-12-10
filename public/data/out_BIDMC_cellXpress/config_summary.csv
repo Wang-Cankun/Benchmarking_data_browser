@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-BIDMC_cellXpress,./data_cellXpress/Initial_Optimization/BIDMC/,./out_BIDMC_cellXpress/,24

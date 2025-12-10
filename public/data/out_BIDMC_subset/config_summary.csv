@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-BIDMC_subset,./data_mesmer/BIDMC/,./out_BIDMC_subset/,8

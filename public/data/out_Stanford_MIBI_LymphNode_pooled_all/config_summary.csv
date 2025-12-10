@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-Stanford_MIBI_LymphNode_pooled_all,./data_mesmer/Validation/Stanford_MIBI_LymphNode/,./out_Stanford_MIBI_LymphNode_pooled_all/,16

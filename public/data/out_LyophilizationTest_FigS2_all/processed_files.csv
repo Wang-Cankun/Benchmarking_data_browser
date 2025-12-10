@@ -1,7 +1,0 @@
-filename,sample_name
-dataScaleSize_fresh_ROI1.csv,1_Fresh
-dataScaleSize_fresh_ROI2.csv,1_Fresh
-dataScaleSize_lyophilizedmanual_ROI1.csv,2_Lyophilized_manual
-dataScaleSize_lyophilizedmanual_ROI2.csv,2_Lyophilized_manual
-dataScaleSize_lyophilizedautomated_ROI1.csv,3_Lyophilized_automated
-dataScaleSize_lyophilizedautomated_ROI2.csv,3_Lyophilized_automated

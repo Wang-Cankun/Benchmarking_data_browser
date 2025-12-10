@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-Stanford_IMC_Tonsil_all,./data_mesmer/Validation/Stanford_IMC_Tonsil/,./out_Stanford_IMC_Tonsil_all/,8

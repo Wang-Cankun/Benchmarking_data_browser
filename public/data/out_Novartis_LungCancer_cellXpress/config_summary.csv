@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-Novartis_LungCancer_cellXpress,./data_cellXpress/Validation/Novartis_LungCancer/,./out_Novartis_LungCancer_cellXpress/,4

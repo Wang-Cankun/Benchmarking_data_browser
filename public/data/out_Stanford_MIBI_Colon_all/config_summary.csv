@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-Stanford_MIBI_Colon_all,./data_mesmer/Validation/Stanford_MIBI_Colon/,./out_Stanford_MIBI_Colon_all/,4

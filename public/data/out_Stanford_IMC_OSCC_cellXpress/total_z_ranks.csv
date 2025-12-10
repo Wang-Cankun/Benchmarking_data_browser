@@ -1,5 +1,0 @@
-"Staining_condition","CD68","aSMA","CD45RO","CD45RA","CD14","CD209","CD16","CD163","pS6","CD11b","FOXP3","CD4","Neurofilament","pMK2","CD31","CD20","CD8","VEGF","CD3","pCREB","Ki67","Collagen","CD44","CD66a","CD11c","HLADR","SOX9","TenascinC","PanCK","CD15","Podoplanin","Desmin","Total_Z_Rank"
-"Stanford_OSCC_Tris_10min",2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,1,2,2,2,1,1,2,3,2,3,45
-"Stanford_OSCC_Tris_40min",1,2,2,3,3,3,2,2,2,3,2,2,3,3,2,2,2,2,2,3,1,1,2,1,1,1,3,2,1,1,1,1,62
-"Stanford_OSCC_Tris_20min",3,3,3,2,2,2,3,3,3,2,3,3,2,2,3,3,3,3,3,4,3,2,3,3,3,3,2,3,4,2,3,2,88
-"Stanford_OSCC_Citra_20min",4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,4,4,3,4,4,4,125

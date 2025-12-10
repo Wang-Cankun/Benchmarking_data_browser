@@ -1,2 +1,0 @@
-config_name,data_folder,out_folder,file_count
-BIDMC_DLBCL_all,./data_mesmer/Validation/BIDMC_DLBCL/,./out_BIDMC_DLBCL_all/,8
