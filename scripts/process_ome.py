@@ -71,15 +71,16 @@ def analyze_and_process(file_path, output_path):
             rgb = np.dstack((c2, c1, c0)) # RGB
             img = Image.fromarray(rgb, mode='RGB')
 
-        # Resize
-        target_width = 1000
+        # Resize - higher quality for web (aim for ~2-3MB file)
+        target_width = 2500  # Good balance of quality and file size
         w, h = img.size
         ratio = target_width / w
         new_size = (int(w * ratio), int(h * ratio))
         img = img.resize(new_size, Image.Resampling.LANCZOS)
         
+        print(f"Output size: {new_size[0]}x{new_size[1]}")
         print(f"Saving to {output_path}...")
-        img.save(output_path, quality=85)
+        img.save(output_path, quality=95)  # Higher JPEG quality
         print("Done.")
 
 if __name__ == "__main__":
