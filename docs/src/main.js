@@ -13,9 +13,9 @@ const CONFIGURATIONS = [
   { id: 'out_Stanford_all', name: 'Stanford All', source: 'Stanford', type: 'mesmer', category: 'Initial Optimization' },
 
   // Initial Optimization - CellXpress
-  { id: 'out_BIDMC_cellXpress', name: 'BIDMC CellXpress', source: 'BIDMC', type: 'cellxpress', category: 'Initial Optimization' },
-  { id: 'out_Roche_cellXpress', name: 'Roche CellXpress', source: 'Roche', type: 'cellxpress', category: 'Initial Optimization' },
-  { id: 'out_Stanford_cellXpress', name: 'Stanford CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Initial Optimization' },
+  { id: 'out_BIDMC_cellXpress', name: 'BIDMC All', source: 'BIDMC', type: 'cellxpress', category: 'Initial Optimization' },
+  { id: 'out_Roche_cellXpress', name: 'Roche All', source: 'Roche', type: 'cellxpress', category: 'Initial Optimization' },
+  { id: 'out_Stanford_cellXpress', name: 'Stanford All', source: 'Stanford', type: 'cellxpress', category: 'Initial Optimization' },
 
   // SNR Analysis
   { id: 'out_BIDMC_Combined_SNR', name: 'BIDMC Combined SNR', source: 'BIDMC', type: 'snr', category: 'SNR Analysis' },
@@ -25,60 +25,59 @@ const CONFIGURATIONS = [
 
   // Validation - ASTAR
   { id: 'out_ASTAR_COMET_CRC_all', name: 'ASTAR COMET CRC', source: 'ASTAR', type: 'mesmer', category: 'Validation' },
-  { id: 'out_ASTAR_COMET_CRC_cellXpress', name: 'ASTAR COMET CRC CellXpress', source: 'ASTAR', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_ASTAR_COMET_CRC_cellXpress', name: 'ASTAR COMET CRC', source: 'ASTAR', type: 'cellxpress', category: 'Validation' },
   { id: 'out_ASTAR_COMET_Tonsil_all', name: 'ASTAR COMET Tonsil', source: 'ASTAR', type: 'mesmer', category: 'Validation' },
-  { id: 'out_ASTAR_COMET_Tonsil_cellXpress', name: 'ASTAR COMET Tonsil CellXpress', source: 'ASTAR', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_ASTAR_COMET_Tonsil_cellXpress', name: 'ASTAR COMET Tonsil', source: 'ASTAR', type: 'cellxpress', category: 'Validation' },
 
   // Validation - BIDMC
   { id: 'out_BIDMC_DLBCL_all', name: 'BIDMC DLBCL', source: 'BIDMC', type: 'mesmer', category: 'Validation' },
-  { id: 'out_BIDMC_DLBCL_cellXpress', name: 'BIDMC DLBCL CellXpress', source: 'BIDMC', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_BIDMC_DLBCL_cellXpress', name: 'BIDMC DLBCL', source: 'BIDMC', type: 'cellxpress', category: 'Validation' },
   { id: 'out_BIDMC_Tonsil_all', name: 'BIDMC Tonsil', source: 'BIDMC', type: 'mesmer', category: 'Validation' },
-  { id: 'out_BIDMC_Tonsil_cellXpress', name: 'BIDMC Tonsil CellXpress', source: 'BIDMC', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_BIDMC_Tonsil_cellXpress', name: 'BIDMC Tonsil', source: 'BIDMC', type: 'cellxpress', category: 'Validation' },
   { id: 'out_BIDMC_subset', name: 'BIDMC Subset', source: 'BIDMC', type: 'mesmer', category: 'Validation' },
 
   // Validation - Novartis
   { id: 'out_Novartis_Lung_Cancer_all', name: 'Novartis Lung Cancer', source: 'Novartis', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Novartis_LungCancer_cellXpress', name: 'Novartis Lung Cancer CellXpress', source: 'Novartis', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Novartis_LungCancer_cellXpress', name: 'Novartis Lung Cancer', source: 'Novartis', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Novartis_Tonsil_all', name: 'Novartis Tonsil', source: 'Novartis', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Novartis_Tonsil_cellXpress', name: 'Novartis Tonsil CellXpress', source: 'Novartis', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Novartis_Tonsil_cellXpress', name: 'Novartis Tonsil', source: 'Novartis', type: 'cellxpress', category: 'Validation' },
 
   // Validation - Roche
   { id: 'out_Roche_intestine_all', name: 'Roche Intestine', source: 'Roche', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Roche_Intestine_cellXpress', name: 'Roche Intestine CellXpress', source: 'Roche', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Roche_Intestine_cellXpress', name: 'Roche Intestine', source: 'Roche', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Roche_Tonsil_all', name: 'Roche Tonsil', source: 'Roche', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Roche_Tonsil_cellXpress', name: 'Roche Tonsil CellXpress', source: 'Roche', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Roche_Tonsil_cellXpress', name: 'Roche Tonsil', source: 'Roche', type: 'cellxpress', category: 'Validation' },
 
   // Validation - Stanford IMC
   { id: 'out_Stanford_IMC_OSCC_all', name: 'Stanford IMC OSCC', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_IMC_OSCC_cellXpress', name: 'Stanford IMC OSCC CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_IMC_OSCC_cellXpress', name: 'Stanford IMC OSCC', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Stanford_IMC_Tonsil_all', name: 'Stanford IMC Tonsil', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_IMC_Tonsil_cellXpress', name: 'Stanford IMC Tonsil CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_IMC_Tonsil_cellXpress', name: 'Stanford IMC Tonsil', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
 
   // Validation - Stanford MIBI
   { id: 'out_Stanford_MIBI_Colon_all', name: 'Stanford MIBI Colon', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_MIBI_Colon_cellXpress', name: 'Stanford MIBI Colon CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_MIBI_Colon_cellXpress', name: 'Stanford MIBI Colon', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Stanford_MIBI_Liver_all', name: 'Stanford MIBI Liver', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_MIBI_Liver_cellXpress', name: 'Stanford MIBI Liver CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_MIBI_Liver_cellXpress', name: 'Stanford MIBI Liver', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Stanford_MIBI_LymphNode_pooled_all', name: 'Stanford MIBI Lymph Node', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_MIBI_LymphNode_pooled_cellXpress', name: 'Stanford MIBI Lymph Node CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_MIBI_LymphNode_pooled_cellXpress', name: 'Stanford MIBI Lymph Node', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
 
   // Validation - Stanford Orion
   { id: 'out_Stanford_Orion_EndometrialCancer_all', name: 'Stanford Orion Endometrial Cancer', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_Orion_Endometrium_cellXpress', name: 'Stanford Orion Endometrium CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_Orion_Endometrium_cellXpress', name: 'Stanford Orion Endometrial Cancer', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
   { id: 'out_Stanford_Orion_LN_all', name: 'Stanford Orion Lymph Node', source: 'Stanford', type: 'mesmer', category: 'Validation' },
-  { id: 'out_Stanford_Orion_Lymph_node_cellXpress', name: 'Stanford Orion Lymph Node CellXpress', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_Stanford_Orion_Lymph_node_cellXpress', name: 'Stanford Orion Lymph Node', source: 'Stanford', type: 'cellxpress', category: 'Validation' },
 
   // Validation - UK Kentucky
   { id: 'out_UKentucky_SCC_all', name: 'UK Kentucky SCC', source: 'UKentucky', type: 'mesmer', category: 'Validation' },
-  { id: 'out_UKentucky_Skin_cellXpress', name: 'UK Kentucky Skin CellXpress', source: 'UKentucky', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_UKentucky_Skin_cellXpress', name: 'UK Kentucky SCC', source: 'UKentucky', type: 'cellxpress', category: 'Validation' },
   { id: 'out_UKentucky_Tonsil_all', name: 'UK Kentucky Tonsil', source: 'UKentucky', type: 'mesmer', category: 'Validation' },
-  { id: 'out_UKentucky_Tonsil_cellXpress', name: 'UK Kentucky Tonsil CellXpress', source: 'UKentucky', type: 'cellxpress', category: 'Validation' },
+  { id: 'out_UKentucky_Tonsil_cellXpress', name: 'UK Kentucky Tonsil', source: 'UKentucky', type: 'cellxpress', category: 'Validation' },
 
   // Special Experiments
   { id: 'out_LyophilizationTest_FigS2_all', name: 'Lyophilization Test (Fig S2)', source: 'Special', type: 'mesmer', category: 'Special Experiments' },
   { id: 'out_Reimagedslide_FigS5_all', name: 'Reimaged Slide (Fig S5)', source: 'Special', type: 'mesmer', category: 'Special Experiments' },
   { id: 'out_StorageConditionsExpt_all', name: 'Storage Conditions Experiment', source: 'Special', type: 'mesmer', category: 'Special Experiments' },
-  { id: 'out_cellXpress_Stanford_cellXpress_all', name: 'CellXpress Stanford All', source: 'Stanford', type: 'cellxpress', category: 'Special Experiments' },
 ];
 
 // Cache for fetched file lists
