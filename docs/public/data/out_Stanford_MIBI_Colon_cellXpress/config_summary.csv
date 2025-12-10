@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Stanford_MIBI_Colon_cellXpress,./data_cellXpress/Validation/Stanford_MIBI/,./out_Stanford_MIBI_Colon_cellXpress/,4

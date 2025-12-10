@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+UKentucky_SCC_all,./data_mesmer/Validation/UKentucky_SCC/,./out_UKentucky_SCC_all/,8

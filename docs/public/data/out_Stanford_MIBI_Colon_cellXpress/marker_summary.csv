@@ -1,0 +1,11 @@
+"Marker","Best_Condition","Worst_Condition","Min_CV","Max_CV","CV_Range","Failed_Conditions","Excluded_Conditions"
+"CD8","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",1.22336677576991,1.54955879490312,0.326192019133208,1,1
+"CD68","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",0.418753318108698,0.73086589855866,0.312112580449962,0,0
+"CD31","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",0.428860679449336,0.700674621000953,0.271813941551617,0,0
+"CD163","Stanford_MIBI_Colon_Tris_10min","Stanford_MIBI_Colon_Citra_20min",0.251507363263747,0.51294120535968,0.261433842095934,0,0
+"CD56","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",0.104982328481559,0.32123484161005,0.216252513128491,0,0
+"Vimentin","Stanford_MIBI_Colon_Tris_10min","Stanford_MIBI_Colon_Citra_20min",0.173980247869121,0.373323930648869,0.199343682779748,0,0
+"IDO","Stanford_MIBI_Colon_Tris_10min","Stanford_MIBI_Colon_Citra_20min",0.128904963056354,0.320420654364146,0.191515691307792,0,0
+"aSMA","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",0.0694683026885324,0.206995801719818,0.137527499031285,0,0
+"CD4","Stanford_MIBI_Colon_Tris_20min","Stanford_MIBI_Colon_Citra_20min",0.429040827769699,0.555155029376094,0.126114201606395,2,2
+"Mast Cell Tryptase","Stanford_MIBI_Colon_Tris_10min","Stanford_MIBI_Colon_Tris_40min",0.0865867839578309,0.190264419363364,0.103677635405533,1,1

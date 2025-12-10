@@ -1,0 +1,49 @@
+"Staining_condition","Marker","CV","Is_Excluded","Rank","Score"
+"Stanford_Orion_LymphNode_Citra_20min","CD68",0.288922464877083,FALSE,2,2
+"Stanford_Orion_LymphNode_Citra_20min","CD163",0.629069626735176,FALSE,3,3
+"Stanford_Orion_LymphNode_Citra_20min","CD8a",0.579808849091262,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","CD4",0.462035794520704,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","PDL1",0.467305698976707,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","CD3e",0.4641808350787,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","CD45RO",NA,TRUE,NA,10
+"Stanford_Orion_LymphNode_Citra_20min","PD1",0.470295928093017,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","CD31",0.623628529663656,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","aSMA",0.691163931464735,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","HLA ABC",0.274976908861992,FALSE,4,4
+"Stanford_Orion_LymphNode_Citra_20min","Vimentin",0.416838674366857,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","CD68",0.461896371529444,FALSE,4,4
+"Stanford_Orion_LymphNode_Tris_10min","CD163",0.694511597097405,FALSE,4,4
+"Stanford_Orion_LymphNode_Tris_10min","CD8a",0.445098664944896,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_10min","CD4",0.304919240238631,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","PDL1",0.204169737084715,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_10min","CD3e",0.415321223312072,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","CD45RO",0.0727316790306376,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","PD1",0.170990866904137,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_10min","CD31",0.560772420886622,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","aSMA",0.473045627659032,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","HLA ABC",0.216130051501452,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_10min","Vimentin",0.418720720954881,FALSE,4,4
+"Stanford_Orion_LymphNode_Tris_20min","CD68",0.27568521732835,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_20min","CD163",0.581253011208204,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","CD8a",0.457025873215245,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_20min","CD4",0.254114115383737,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","PDL1",0.223322167851085,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","CD3e",0.375603430866368,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","CD45RO",0.0639454067764625,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_20min","PD1",0.189358555198079,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_20min","CD31",0.483833404769476,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","aSMA",0.462629897701847,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","HLA ABC",0.196251886055626,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_20min","Vimentin",0.322705036225674,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_40min","CD68",0.2935941277064,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_40min","CD163",0.565192567513764,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","CD8a",0.42432436943784,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","CD4",0.208835394045195,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","PDL1",0.311898352089556,FALSE,3,3
+"Stanford_Orion_LymphNode_Tris_40min","CD3e",0.326242451404476,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","CD45RO",0.0699181777986618,FALSE,2,2
+"Stanford_Orion_LymphNode_Tris_40min","PD1",0.150313055901082,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","CD31",0.46703769503732,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","aSMA",0.438834186785219,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","HLA ABC",0.179064783182067,FALSE,1,1
+"Stanford_Orion_LymphNode_Tris_40min","Vimentin",0.268917700820127,FALSE,1,1

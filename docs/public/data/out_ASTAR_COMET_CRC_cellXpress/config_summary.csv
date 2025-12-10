@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+ASTAR_COMET_CRC_cellXpress,./data_cellXpress/Validation/ASTAR/,./out_ASTAR_COMET_CRC_cellXpress/,4

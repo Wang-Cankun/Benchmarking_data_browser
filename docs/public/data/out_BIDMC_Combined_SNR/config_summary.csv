@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+BIDMC_Combined,./data_mesmer/Initial_Optimization/BIDMC/,./out_BIDMC_Combined_SNR/,48

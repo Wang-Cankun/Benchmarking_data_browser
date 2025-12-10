@@ -1,0 +1,37 @@
+"Staining_condition","Marker","CV","Is_Excluded"
+"Novartis_tonsil_Citra_20min","CD3",0.0837777980182873,FALSE
+"Novartis_tonsil_Citra_20min","CD8",NA,TRUE
+"Novartis_tonsil_Citra_20min","CD68",0.11246175490507,FALSE
+"Novartis_tonsil_Citra_20min","CD11c",0.0651338233118347,FALSE
+"Novartis_tonsil_Citra_20min","HLADR",0.10942194537227,FALSE
+"Novartis_tonsil_Citra_20min","Ki67",NA,TRUE
+"Novartis_tonsil_Citra_20min","Granzyme B",0.0494372206050663,FALSE
+"Novartis_tonsil_Citra_20min","ECadherin",0.11836126546998,FALSE
+"Novartis_tonsil_Citra_20min","CD15",0.0584119023931464,FALSE
+"Novartis_tonsil_Tris_10min","CD3",0.081263272535121,FALSE
+"Novartis_tonsil_Tris_10min","CD8",0.061047718999643,FALSE
+"Novartis_tonsil_Tris_10min","CD68",0.0895808607536391,FALSE
+"Novartis_tonsil_Tris_10min","CD11c",0.0638295346871295,FALSE
+"Novartis_tonsil_Tris_10min","HLADR",0.0870124083620722,FALSE
+"Novartis_tonsil_Tris_10min","Ki67",0.0986722254384447,FALSE
+"Novartis_tonsil_Tris_10min","Granzyme B",0.031264159751305,FALSE
+"Novartis_tonsil_Tris_10min","ECadherin",0.125842524828859,FALSE
+"Novartis_tonsil_Tris_10min","CD15",0.0358965051954202,FALSE
+"Novartis_tonsil_Tris_20min","CD3",0.130194183073508,FALSE
+"Novartis_tonsil_Tris_20min","CD8",0.0771645164077216,FALSE
+"Novartis_tonsil_Tris_20min","CD68",0.103673680045644,FALSE
+"Novartis_tonsil_Tris_20min","CD11c",0.0894777421131245,FALSE
+"Novartis_tonsil_Tris_20min","HLADR",0.0881990299617924,FALSE
+"Novartis_tonsil_Tris_20min","Ki67",0.106112264816003,FALSE
+"Novartis_tonsil_Tris_20min","Granzyme B",0.0441651665992638,FALSE
+"Novartis_tonsil_Tris_20min","ECadherin",0.129646663890158,FALSE
+"Novartis_tonsil_Tris_20min","CD15",0.0461552097764989,FALSE
+"Novartis_tonsil_Tris_40min","CD3",0.0756648685704915,FALSE
+"Novartis_tonsil_Tris_40min","CD8",NA,TRUE
+"Novartis_tonsil_Tris_40min","CD68",0.0572297605274514,FALSE
+"Novartis_tonsil_Tris_40min","CD11c",0.0709907196770247,FALSE
+"Novartis_tonsil_Tris_40min","HLADR",0.0620846956131674,FALSE
+"Novartis_tonsil_Tris_40min","Ki67",0.0890096952977616,FALSE
+"Novartis_tonsil_Tris_40min","Granzyme B",0.0277780398889454,FALSE
+"Novartis_tonsil_Tris_40min","ECadherin",0.121826432259428,FALSE
+"Novartis_tonsil_Tris_40min","CD15",0.0301492294569141,FALSE

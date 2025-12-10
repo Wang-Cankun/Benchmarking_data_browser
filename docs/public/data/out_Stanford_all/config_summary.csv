@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Stanford_all,./data_mesmer/Initial_Optimization/Stanford/,./out_Stanford_all/,24

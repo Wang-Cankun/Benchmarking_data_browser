@@ -1,0 +1,5 @@
+"Staining_condition","PanCK","CD68","aSMA","CD45RO","CD45RA","CD14","CD209","CD16","CD163","pS6","CD11b","FoxP3","CD4","Neurofilamen","pMK2","CD31","CD20","CD8a","VEGF","CD3","pCREB","Ki67","Collagen1","CD44","CD66a","CD11c","HLADR","SOX9","TenascinC","CD15","Podoplanin","Desmin","Total_Z_Rank"
+"Stanford_OSCC_3",2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,2,2,2,2,1,1,3,2,2,45
+"Stanford_OSCC_2",1,1,2,2,2,3,3,2,2,2,3,2,2,3,2,2,2,2,2,2,3,1,1,1,1,1,1,3,2,1,1,1,59
+"Stanford_OSCC_1",4,3,3,3,3,2,2,3,3,3,2,4,3,2,3,3,3,3,3,3,4,3,2,3,3,3,3,2,3,2,3,3,92
+"Stanford_OSCC_24",3,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,124

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tissue Preparation Benchmarking | Data Browser</title>
+  <meta name="description"
+    content="Interactive data portal for browsing tissue preparation and staining condition benchmarking results across multiple platforms. Companion resource for Nature publication." />
+  <meta name="keywords"
+    content="tissue preparation, benchmarking, Mesmer, CellXpress, multiplexed imaging, single-cell analysis" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <span class="nav-logo">🔬</span>
+        <div class="nav-title">
+          <h1>Tissue Preparation Benchmarking</h1>
+          <span class="nav-subtitle">Data Browser Portal</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#" class="nav-link active" data-view="dashboard">Dashboard</a>
+        <a href="#" class="nav-link" data-view="bioimage">BioImage Archive</a>
+        <a href="https://github.com/SizunJiangLab/Benchmarking_tissue_preparation" target="_blank"
+          class="nav-link external">
+          GitHub
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            <polyline points="15 3 21 3 21 9" />
+            <line x1="10" y1="14" x2="21" y2="3" />
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Dashboard View -->
+      <section id="dashboard-view" class="view active">
+        <!-- Hero Section -->
+        <div class="hero">
+          <div class="hero-content">
+            <h2 class="hero-title">Benchmarking Analysis Results</h2>
+            <p class="hero-description">
+              Explore publication-ready figures and statistics from tissue preparation benchmarking across Mesmer and
+              CellXpress segmentation pipelines. This data portal accompanies our systematic evaluation of tissue
+              preparation protocols for multiplexed imaging.
+            </p>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <span class="stat-value">49</span>
+                <span class="stat-label">Configurations</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">7</span>
+                <span class="stat-label">Data Sources</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value">2</span>
+                <span class="stat-label">Pipelines</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Search and Filter -->
+        <div class="controls">
+          <div class="search-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <input type="text" id="search-input" placeholder="Search configurations..." />
+          </div>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="mesmer">Mesmer</button>
+            <button class="filter-btn" data-filter="cellxpress">CellXpress</button>
+            <button class="filter-btn" data-filter="snr">SNR</button>
+          </div>
+        </div>
+
+        <!-- Configuration Grid -->
+        <div class="config-grid" id="config-grid">
+          <!-- Cards will be dynamically inserted here -->
+        </div>
+      </section>
+
+      <!-- Result Detail View -->
+      <section id="result-view" class="view">
+        <div class="result-header">
+          <button class="back-btn" id="back-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 19-7-7 7-7" />
+              <path d="M19 12H5" />
+            </svg>
+            Back to Dashboard
+          </button>
+          <h2 class="result-title" id="result-title">Configuration Name</h2>
+          <div class="result-badges" id="result-badges"></div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="figures">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+              <circle cx="9" cy="9" r="2" />
+              <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+            </svg>
+            Figures
+          </button>
+          <button class="tab-btn" data-tab="data">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3v18" />
+              <rect width="18" height="18" x="3" y="3" rx="2" />
+              <path d="M3 9h18" />
+              <path d="M3 15h18" />
+            </svg>
+            Data Tables
+          </button>
+          <button class="tab-btn" data-tab="downloads">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" x2="12" y1="15" y2="3" />
+            </svg>
+            Downloads
+          </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+          <!-- Figures Tab -->
+          <div id="figures-tab" class="tab-panel active">
+            <div class="figure-grid" id="figure-grid"></div>
+          </div>
+
+          <!-- Data Tables Tab -->
+          <div id="data-tab" class="tab-panel">
+            <div class="table-selector">
+              <select id="table-select">
+                <option value="">Select a data file...</option>
+              </select>
+            </div>
+            <div class="data-table-container" id="data-table-container">
+              <p class="placeholder-text">Select a CSV file to view data</p>
+            </div>
+          </div>
+
+          <!-- Downloads Tab -->
+          <div id="downloads-tab" class="tab-panel">
+            <div class="download-list" id="download-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BioImage Archive View -->
+      <section id="bioimage-view" class="view">
+        <div class="bioimage-hero">
+          <div class="bioimage-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2v-2" />
+              <path d="M18 8h4v8h-4" />
+              <circle cx="10" cy="10" r="2" />
+              <path d="m22 2-5 5" />
+              <path d="m2 22 5-5" />
+            </svg>
+          </div>
+          <h2>BioImage Archive</h2>
+          <p class="bioimage-description">
+            High-resolution qTIFF microscopy images (30+ GB each) are hosted on the
+            <a href="https://www.ebi.ac.uk/bioimage-archive/" target="_blank">EMBL-EBI BioImage Archive</a>.
+          </p>
+        </div>
+
+        <div class="bioimage-info">
+          <div class="info-card">
+            <h3>📦 Dataset Access</h3>
+            <p>Raw qTIFF images are too large for direct embedding in this portal. The complete raw imaging dataset is
+              available through BioImage Archive, where you can:</p>
+            <ul>
+              <li>Browse images using the interactive Vizarr viewer</li>
+              <li>Download individual channels or full images</li>
+              <li>Access via programmatic API (Python/R)</li>
+              <li>View metadata and experimental protocols</li>
+            </ul>
+            <div class="coming-soon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              BioImage Archive link coming upon publication
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>🔗 Related Resources</h3>
+            <ul class="resource-links">
+              <li>
+                <a href="https://zenodo.org" target="_blank">
+                  <span>Zenodo</span>
+                  <span class="link-desc">Processed CSV data files</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/SizunJiangLab/Benchmarking_tissue_preparation" target="_blank">
+                  <span>GitHub Repository</span>
+                  <span class="link-desc">Analysis workflows & code</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ebi.ac.uk/bioimage-archive/" target="_blank">
+                  <span>BioImage Archive</span>
+                  <span class="link-desc">Raw qTIFF images</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Tissue Preparation Benchmarking Data Browser &nbsp;·&nbsp;
+        Contact: <a href="mailto:sjiang3@bidmc.harvard.edu">sjiang3@bidmc.harvard.edu</a> &nbsp;·&nbsp;
+        <a href="https://github.com/SizunJiangLab/Benchmarking_tissue_preparation" target="_blank">View on GitHub</a>
+      </p>
+    </footer>
+
+    <!-- SVG Modal -->
+    <div class="modal" id="image-modal">
+      <div class="modal-content">
+        <button class="modal-close" id="modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+        <div class="modal-image-container" id="modal-image-container"></div>
+        <div class="modal-title" id="modal-title"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

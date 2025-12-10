@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_Orion_Endometrium_Tris_40min",13,13,0,0,18,1.38461538461538,1.38461538461538,0
+"Stanford_Orion_Endometrium_Tris_20min",13,13,0,0,34,2.61538461538462,2.61538461538462,0
+"Stanford_Orion_Endometrium_Tris_10min",13,12,1,0,53,4.07692307692308,3.58333333333333,1
+"Stanford_Orion_Endometrium_Citra_20min",13,9,4,0,56,4.30769230769231,1.77777777777778,4

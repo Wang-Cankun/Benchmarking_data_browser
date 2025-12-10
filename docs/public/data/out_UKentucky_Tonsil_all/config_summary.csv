@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+UKentucky_Tonsil_all,./data_mesmer/Validation/UKentucky_Tonsil/,./out_UKentucky_Tonsil_all/,8

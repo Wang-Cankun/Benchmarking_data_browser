@@ -1,0 +1,6 @@
+"Marker","Best_Condition","Worst_Condition","Min_CV","Max_CV","CV_Range","Failed_Conditions","Excluded_Conditions"
+"ECadherin","Novartis_Lung_Cancer_slide2","Novartis_Lung_Cancer_slide24",0.442737062335626,0.938486938840161,0.495749876504535,0,0
+"Ki67","Novartis_Lung_Cancer_slide1","Novartis_Lung_Cancer_slide24",0.213090201930664,0.580775876397108,0.367685674466444,0,0
+"CD3","Novartis_Lung_Cancer_slide2","Novartis_Lung_Cancer_slide24",0.248306214884825,0.540942841406263,0.292636626521438,0,0
+"CD15","Novartis_Lung_Cancer_slide2","Novartis_Lung_Cancer_slide24",0.176956053462782,0.317485628617885,0.140529575155104,0,0
+"CD11c","Novartis_Lung_Cancer_slide2","Novartis_Lung_Cancer_slide24",0.138631094686213,0.225317280138378,0.0866861854521653,0,0

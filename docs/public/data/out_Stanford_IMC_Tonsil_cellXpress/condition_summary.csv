@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_IMC_Tonsil_Tris_40min",31,31,0,0,63,2.03225806451613,2.03225806451613,0
+"Stanford_IMC_Tonsil_Tris_20min",31,31,0,0,72,2.32258064516129,2.32258064516129,0
+"Stanford_IMC_Tonsil_Tris_10min",31,25,6,0,103,3.32258064516129,1.72,6
+"Stanford_IMC_Tonsil_Citra_20min",31,23,8,0,162,5.2258064516129,3.56521739130435,8

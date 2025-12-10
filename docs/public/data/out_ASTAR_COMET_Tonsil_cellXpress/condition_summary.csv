@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"ASTAR_Tonsil_Tris_20min",20,20,0,0,37,1.85,1.85,0
+"ASTAR_Tonsil_Citra_20min",20,20,0,0,45,2.25,2.25,0
+"ASTAR_Tonsil_Tris_10min",20,20,0,0,57,2.85,2.85,0
+"ASTAR_Tonsil_Tris_40min",20,20,0,0,61,3.05,3.05,0

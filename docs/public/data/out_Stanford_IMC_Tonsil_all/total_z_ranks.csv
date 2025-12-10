@@ -1,0 +1,5 @@
+"Staining_condition","PanCK","CD68","aSMA","CD45RO","CD45RA","CD14","CD209","CD16","CD163","pS6","CD11b","PDL1","PD1","pSTAT3","CD4","pMK2","CD31","CD20","CD8a","CD3","GRZB","Ki67","Collagen1","CD44","CD66a","CD11c","HLADR","SOX9","TenascinC","CD15","Podoplanin","Total_Z_Rank"
+"Stanford_Tonsil_2",3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,39
+"Stanford_Tonsil_3",2,2,1,1,2,3,NA,NA,2,3,3,3,NA,NA,3,NA,2,3,3,3,3,3,3,2,2,3,3,2,NA,3,3,63
+"Stanford_Tonsil_1",4,1,4,3,4,2,2,2,3,2,2,2,2,2,2,2,3,2,2,2,2,2,2,3,3,2,2,3,2,1,1,71
+"Stanford_Tonsil_24",1,4,3,4,3,4,NA,NA,4,4,4,4,NA,NA,NA,NA,4,4,4,4,4,4,4,4,4,4,4,NA,NA,4,4,87

@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_MIBI_Liver_Tris_20min",14,14,0,0,16,1.14285714285714,1.14285714285714,0
+"Stanford_MIBI_Liver_Tris_40min",14,14,0,0,38,2.71428571428571,2.71428571428571,0
+"Stanford_MIBI_Liver_Tris_10min",14,13,1,0,54,3.85714285714286,3.38461538461538,1
+"Stanford_MIBI_Liver_Citra_20min",14,11,3,0,57,4.07142857142857,2.45454545454545,3

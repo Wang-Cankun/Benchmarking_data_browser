@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Roche_all,./data_mesmer/Initial_Optimization/Roche/,./out_Roche_all/,12

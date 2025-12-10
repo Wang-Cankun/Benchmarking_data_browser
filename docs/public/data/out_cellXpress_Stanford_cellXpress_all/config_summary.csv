@@ -1,0 +1,2 @@
+config_name,data_folder,out_folder,file_count
+Stanford_cellXpress_all,./data_cellXpress/Initial_Optimization/Stanford/,./out_cellXpress_Stanford_cellXpress_all/,24

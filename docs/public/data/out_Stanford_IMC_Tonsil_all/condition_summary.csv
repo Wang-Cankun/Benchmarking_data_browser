@@ -1,0 +1,5 @@
+"Staining_condition","Total_Markers","Working_Markers","Excluded_Markers","NonWorking_Markers","Total_Score","Average_Score","Average_Rank","Penalty_Count"
+"Stanford_Tonsil_2",31,31,0,0,39,1.25806451612903,1.25806451612903,0
+"Stanford_Tonsil_1",31,31,0,0,71,2.29032258064516,2.29032258064516,0
+"Stanford_Tonsil_3",31,25,6,0,123,3.96774193548387,2.52,6
+"Stanford_Tonsil_24",31,23,8,0,167,5.38709677419355,3.78260869565217,8
