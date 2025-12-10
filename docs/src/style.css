@@ -3,7 +3,7 @@
    Light Theme with TailwindCSS
    ============================================ */
 
-@import "tailwindcss";
+/* Using pure CSS with CSS Variables - no build step required */
 
 /* CSS Variables - Light Theme */
 :root {
